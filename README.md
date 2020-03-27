@@ -1,2 +1,2 @@
 # Wireframe
-    [embed]src/Assets/Wireframe.pdf[embed]
+    [embed]src/Assets/Wireframe.pdf[/embed]
