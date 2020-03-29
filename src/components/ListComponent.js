@@ -8,7 +8,7 @@ class ListComponent extends React.Component{
 
     render(){
         return(
-            <div>
+            <div id="leftSide">
                 <img src={require("../assets/logo.png")} alt="logo" />
                 <ul>
                     <li>Human Profile</li>
@@ -16,7 +16,6 @@ class ListComponent extends React.Component{
                     <li>Pet details</li>
                     <li>Confirm</li>
                 </ul>
-                <img src={require("../assets/dog.png") } alt="dog"/>
                 <p>Save and exit</p>
             </div>
         )

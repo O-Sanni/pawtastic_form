@@ -1,0 +1,11 @@
+#main{
+    background-color: #9497A7;
+}
+#leftSide{
+background-image: url("../assets/dog_01.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 200px;
+height: 500px;
+}

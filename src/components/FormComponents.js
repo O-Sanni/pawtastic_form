@@ -17,10 +17,18 @@ class FormComponents extends React.Component{
                         <p>Name</p>
                         <input type="text" placeholder="Pet's name" />
                         <p>Breed</p>
-                        <input type="text" 
+                        <input type="text" placeholder="Pet's breed" />
+                        
+                        <div>
+                        <div>
+                            <p>Gender</p>
+                        <input name="Female"/>
+                        </div>
+                        
+                        </div>
                     </form>
                 </div>
-                <div id="formButton"
+                <div id="formButton"></div>
             </div>
         )
     }
