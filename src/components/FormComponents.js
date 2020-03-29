@@ -12,16 +12,15 @@ class FormComponents extends React.Component{
         return(
             <div>
                <h1>Yay, we love dogs! Give us the basic about your pup.</h1> 
-                <div id="form">
-                    <div id="1"></div>
-                    <div id="2"></div>
-                    <div id="3"></div>
-                    <div id="4"></div>
-                    <div id="5"></div>
-                    <div id="6"></div>
-                    <div id="7"></div>
-
-            </div>
+                <div id="formTop">
+                    <form>
+                        <p>Name</p>
+                        <input type="text" placeholder="Pet's name" />
+                        <p>Breed</p>
+                        <input type="text" 
+                    </form>
+                </div>
+                <div id="formButton"
             </div>
         )
     }
