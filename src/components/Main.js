@@ -1,13 +1,16 @@
 
 import React from 'react';
-
-import ListComponent from "../components/ListComponent";
+import FormComponents from '../components/FormComponents';
+// import ListComponent from "../components/ListComponent";
 
 
 class Main extends React.Component{
     render(){
         return (
-          <ListComponent />  
+          <div>
+          <FormComponents />
+          {/* <ListComponent />  */}
+          </div>
         )
     }
 }
