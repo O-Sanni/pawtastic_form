@@ -1,4 +1,6 @@
 #main{
+    display: flex;
+    flex-direction: row;
     background-color: #9497A7;
 }
 #leftSide{
@@ -8,4 +10,11 @@ background-repeat: no-repeat;
 background-size: cover;
 width: 200px;
 height: 500px;
+}
+#rightMain{
+    background-color: #F7eceb;
+}
+#textTopRight{
+color:#545871;
+font-family: 'Signika', sans-serif;
 }

@@ -10,10 +10,10 @@ class FormComponents extends React.Component{
     }
     render(){
         return(
-            <div>
-               <h1>Yay, we love dogs! Give us the basic about your pup.</h1> 
+            <div id="rightMain">
+               <h1 id="textTopRight">Yay, we love dogs! Give us the basic about your pup.</h1> 
                 <div id="formTop">
-                    <form>
+                    <form id="formLeft">
                         <p>Name</p>
                         <input type="text" placeholder="Pet's name" />
                         <p>Breed</p>
