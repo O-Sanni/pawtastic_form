@@ -35,13 +35,21 @@ class FormComponents extends React.Component{
     }
 
     handlePressBack(e){
-        this.setState({back:true})
+        this.setState({back:true});
+        document.getElementById("next").style.backgroundColor="#ffffff";
+        document.getElementById("next").style.color="#545871";
+        document.getElementById("back").style.backgroundColor="#545871";
+        document.getElementById("back").style.color="#ffffff";
         console.log("Back: " + this.state.back);
     }
 
     handlePressNext(e){
         this.setState({next:true})
         console.log("Next: " + this.state.next);
+        document.getElementById("back").style.backgroundColor="#ffffff";
+        document.getElementById("back").style.color="#545871";
+        document.getElementById("next").style.backgroundColor="#545871";
+        document.getElementById("next").style.color="#ffffff";
     }
 
     render(){
@@ -103,14 +111,10 @@ class FormComponents extends React.Component{
                             <label className="radioWeight" id="choiceMore100" for="more100lb">100+lbs</label>
                             </form>
                             </div>
-                
-                      
-            
-            <div>
-                <input id= "back" onClick={this.handlePressBack} type="button" />
-                <label id="backLab" for="back">Back</label>
-                <input id= "next" onClick ={this.handlePressNext} type="button" />
-                <label id="nextLab" for="next">Next</label>
+                                
+            <div id="button">
+                <button id= "back"  type="button" onClick={this.handlePressBack} >Back</button>
+                <button id= "next" type="button" onClick ={this.handlePressNext} >Next</button>
             </div>
             </div>
             </div>
