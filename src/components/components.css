@@ -18,3 +18,23 @@ height: 500px;
 color:#545871;
 font-family: 'Signika', sans-serif;
 }
+/* Idea was taken from https://stackoverflow.com/questions/33881961/create-segmented-control-like-with-animation answer by Mi-Creativity */
+label{
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: ;
+        z-index: 2;
+        cursor: pointer;
+        outline: 1px solid green;
+    }
+    input{
+        display:none;
+    }
+    #mal:checked ~ #malLab {
+    background-color: violet;
+    }
+
+
