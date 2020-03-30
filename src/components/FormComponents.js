@@ -55,17 +55,20 @@ class FormComponents extends React.Component{
                         <input className="filloutInp" id="name" type="text" onChange={this.handleChangeName} placeholder="Pet's name" />
                         </form>
                         <div id="upload">
-                            <img src={require("../assets/camera.jpg")} alt="camera" />
+                            <img id="imgCam" src={require("../assets/camera.jpg")} alt="camera" />
                             <p className="pNames">Upload a photo</p>
                         </div>
                         </div>
+                        <div id="breedBirth">
+                        <div>
                             <p className="pNames">Breed</p>
-
                         <input  className="filloutInp" id="breed" type="text" onChange={this.handleChangeBreed} placeholder="Pet's breed" />
-                        <p className="pNames">Birthday</p>
+                       </div> 
+                       <div id="birthDiv">
+                       <p className="pNames">Birthday</p>
                         <input className="filloutInp"  id="birthday" type="text" onChange={this.handleChangeBirthday} placeholder="MM/DD/YYYY" />
-                   
-
+                   </div>
+</div>
                         <div id="gender">
                             <p className="pNames">Gender</p>
                             <div id="genderChoice">

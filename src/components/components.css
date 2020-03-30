@@ -78,10 +78,33 @@ margin-top: -55px;
 
 }
 .filloutInp{
-  width: 150px; 
-  height: 30px; 
+  width: 180px; 
+  height: 35px;
+  font-family: 'Signika', sans-serif;
+  font-size: 15px;
+  color: #9597A6;
 }
 
+#upload{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#imgCam{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+#breedBirth{
+    display: flex;
+    flex-direction: row;
+}
+
+#birthDiv{
+    margin-left: 20px;
+}
 /* Idea was taken from https://stackoverflow.com/questions/33881961/create-segmented-control-like-with-animation answer by Mi-Creativity */
 
 #name
