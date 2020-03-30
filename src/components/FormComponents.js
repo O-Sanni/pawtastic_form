@@ -52,7 +52,7 @@ class FormComponents extends React.Component{
                 <div id="topPart">
                     <form id="formTop">
                         <p className="pNames">Name</p>
-                        <input id="name" type="text" onChange={this.handleChangeName} placeholder="Pet's name" />
+                        <input className="filloutInp" id="name" type="text" onChange={this.handleChangeName} placeholder="Pet's name" />
                         </form>
                         <div id="upload">
                             <img src={require("../assets/camera.jpg")} alt="camera" />
@@ -61,9 +61,9 @@ class FormComponents extends React.Component{
                         </div>
                             <p className="pNames">Breed</p>
 
-                        <input  id="breed" type="text" onChange={this.handleChangeBreed} placeholder="Pet's breed" />
+                        <input  className="filloutInp" id="breed" type="text" onChange={this.handleChangeBreed} placeholder="Pet's breed" />
                         <p className="pNames">Birthday</p>
-                        <input  id="birthday" type="text" onChange={this.handleChangeBirthday} placeholder="MM/DD/YYYY" />
+                        <input className="filloutInp"  id="birthday" type="text" onChange={this.handleChangeBirthday} placeholder="MM/DD/YYYY" />
                    
 
                         <div id="gender">

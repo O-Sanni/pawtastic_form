@@ -70,8 +70,15 @@ margin-left: 150px;
     margin-top: -25px;
  
 }
-#formTop{
- 
+
+.pNames{
+    font-family: 'Signika', sans-serif;
+    font-size: 15px;
+    color: #9597A6;
+
+}
+#filloutInp{
+    
 }
 
 /* Idea was taken from https://stackoverflow.com/questions/33881961/create-segmented-control-like-with-animation answer by Mi-Creativity */
