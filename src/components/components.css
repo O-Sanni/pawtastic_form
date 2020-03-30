@@ -27,9 +27,16 @@
     width: 221px;
     height: 64px;
 }
-
+#line{
+    height: 155px;
+    margin-top: -5px;
+    margin-left: 30px;
+    border-left: solid 1px #9596A7;
+}
 ul{ 
-    margin-top: 50px;
+    margin-left: -21px;
+    margin-top: 49px;
+
 }
 
 li{
@@ -42,7 +49,7 @@ li{
 }
 
 #save{
-    margin-top: 300px;
+    margin-top: 320px;
     font-family: 24px 'Sen', sans-serif;
     text-decoration: underline;
     color:#ffffff;
