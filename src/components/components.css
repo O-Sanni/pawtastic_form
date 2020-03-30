@@ -1,7 +1,12 @@
 #main{
     display: flex;
     flex-direction: row;
+    width: 1439px;
+    height: 820px;
     background-color: #9497A7;
+}
+li{
+    list-style-image: url("../assets/circle.png");
 }
 #leftSide{
 background-image: url("../assets/dog_01.jpg");
@@ -12,6 +17,7 @@ width: 200px;
 height: 500px;
 }
 #rightMain{
+
     background-color: #F7eceb;
 }
 #textTopRight{
@@ -21,17 +27,16 @@ font-family: 'Signika', sans-serif;
 
 /* Idea was taken from https://stackoverflow.com/questions/33881961/create-segmented-control-like-with-animation answer by Mi-Creativity */
 
-#genderChoice{
-    display: flex;
-    flex-direction: row;
-}
-
-label{
-        width: 120px;
-        height: 30px;
-        margin-left: 30px;
+#name
+breed
+.labelsRadio{
+        padding-top: 15px;
+        width: 136px;
+        height: 36px;
+        margin-left: 10px;
         text-align: center;
-        outline: 1px solid green;
+
+ 
     }
  .choiceInp{
         display:none;
@@ -67,21 +72,24 @@ background-color: #EBD0CE;
     background-color: #EBD0CE;
     }
 
-    #genderChoice  {
+    #genderChoice,#spaOrNeu  {
+        display: flex;
+        flex-direction: row;
+        width: 288px;
+        height: 56px;
         background-color: #ffffff;
+        
         
     }
 
-#spaOrNeu{
+#weightCh{
+    display: flex;
+    flex-direction: row;
     background-color: #ffffff;
-    
+    height: 56px;
 }
 
-#weightCh{
-    background-color: #ffffff;
-    
-}
-/* #back, #next{
+#back, #next{
     display:none;
-} */
+}
 
