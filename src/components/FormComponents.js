@@ -40,10 +40,22 @@ class FormComponents extends React.Component{
                             <input className="choiceInp" id="male" type="radio" name="choiceGender"/>
                             <label id="maleChoice" for="male">Male</label>
                             </div>
+                            <div id="Gender">
+                            <p>Spayed or Neutered</p>
+                            <div id="SpaOrNeu">
+                            <input className="choiceInp" id="yes" type="radio" name="yesNo" checked/>
+                            <label id="yesChoice" for="yes">Yes</label>
+                            <input className="choiceInp" id="no" type="radio" name="yesNo"/>
+                            <label id="noChoice" for="no">No</label>
                             </div>
+                            </div>
+                
+                
                       
             </div>
             </div>
+            </div>
+            
         )
     }
 }

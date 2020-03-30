@@ -44,4 +44,15 @@ label{
         background-color: teal;
     }
 
+#yes:checked ~ #yesChoice{
+background-color: red;
+}
+#no:checked ~ #noChoice{
+    
+background-color: red;
+    
+
+}
+
+
 
