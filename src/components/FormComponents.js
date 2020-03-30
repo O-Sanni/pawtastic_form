@@ -31,20 +31,17 @@ class FormComponents extends React.Component{
                         <input type="text" onChange={this.handleChangeName} placeholder="Pet's name" />
                         <p>Breed</p>
                         <input type="text" onChange={this.handleChangeBreed} placeholder="Pet's breed" />
-                        <div>
+                        </form>
                         <div id="Gender">
                             <p>Gender</p>
-                            <input id="female" type="radio" name="choiceGender" checked/>
+                            <div id="genderChoice">
+                            <input className="choiceInp" id="female" type="radio" name="choiceGender" checked/>
                             <label id="femaleChoice" for="female">Female</label>
-                            <input id="male" type="radio" name="choiceGender"/>
+                            <input className="choiceInp" id="male" type="radio" name="choiceGender"/>
                             <label id="maleChoice" for="male">Male</label>
-                      
-               
-  
-</div>
                             </div>
-                </form>
-                <div id="formButton"></div>
+                            </div>
+                      
             </div>
             </div>
         )
