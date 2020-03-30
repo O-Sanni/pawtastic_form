@@ -92,6 +92,11 @@ li{
     color: #9597A6;
 }
 
+#uploadTxt{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 #upload{
     display: flex;
     flex-direction: row;

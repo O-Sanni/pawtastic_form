@@ -83,7 +83,7 @@ class FormComponents extends React.Component{
                                 </form>
                                 <div id="upload">
                                     <img id="imgCam" src={require("../assets/camera.jpg")} alt="camera" />
-                                    <p className="pNames">Upload a photo</p>
+                                    <p className="pNames" id="uploadTxt">Upload a photo</p>
                                 </div>
                             </div>
                             <div id="breedBirth">
