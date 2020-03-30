@@ -20,7 +20,7 @@
 
 #logoTxt{
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 100px;
 }
 
 #logo{
@@ -97,27 +97,45 @@ margin-top: -55px;
     height: 35px;
 }
 
-#breedBirth{
+#breedBirth {
     display: flex;
     flex-direction: row;
 }
 
-#birthDiv{
+#birthDiv, #spaNeu{
     margin-left: 20px;
 }
+
+#genderSN{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
 /* Idea was taken from https://stackoverflow.com/questions/33881961/create-segmented-control-like-with-animation answer by Mi-Creativity */
 
-#name
-#breed
-.labelsRadio{
-        padding-top: 15px;
-        width: 136px;
-        height: 36px;
-        margin-left: 10px;
-        text-align: center;
 
- 
+.labelsRadio{
+    margin-top: 10px;
+    margin-left: -7px;
+    width: 65px;
+    height: 20px;
+    padding-left: 10px; 
+    color:#545871;
     }
+.radioWeight{
+    margin-top: 10px;
+    margin-left: -7px;
+    width: 80px;
+    height: 20px;
+    padding-left: 10px; 
+    color:#545871;
+    }
+
+
  .choiceInp{
         display:none;
     }
@@ -132,7 +150,9 @@ margin-top: -55px;
 
 #yes:checked ~ #yesChoice{
 background-color: #EBD0CE;
+
 }
+
 #no:checked ~ #noChoice{
     
 background-color: #EBD0CE;
@@ -155,9 +175,13 @@ background-color: #EBD0CE;
     #genderChoice,#spaOrNeu  {
         display: flex;
         flex-direction: row;
-        width: 150px;
-        height: 30px;
+        justify-content: space-around;
+        width: 180px; 
+        height: 45px;
         background-color: #ffffff;
+    margin-right: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5%;
         
         
     }
@@ -165,8 +189,13 @@ background-color: #EBD0CE;
 #weightCh{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
     background-color: #ffffff;
-    height: 56px;
+    height: 45px;
+    margin-right: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5%;
 }
 
 #back, #next{

@@ -68,41 +68,44 @@ class FormComponents extends React.Component{
                        <p className="pNames">Birthday</p>
                         <input className="filloutInp"  id="birthday" type="text" onChange={this.handleChangeBirthday} placeholder="MM/DD/YYYY" />
                    </div>
-</div>
+                        </div>
+                        <div id="genderSN">
                         <div id="gender">
                             <p className="pNames">Gender</p>
-                            <div id="genderChoice">
+                            <form id="genderChoice">
                             <input className="choiceInp" id="female" type="radio" name="choiceGender" />
                             <label className="labelsRadio" id="femaleChoice" for="female">Female</label>
                             <input className="choiceInp" id="male" type="radio" name="choiceGender"/>
                             <label className="labelsRadio" id="maleChoice" for="male">Male</label>
-                            </div>
+                            </form>
+                        </div>
                             <div id="spaNeu">
                             <p className="pNames">Spayed or Neutered</p>
-                            <div id="spaOrNeu">
+                            <form id="spaOrNeu">
                             <input className="choiceInp" id="yes" type="radio" name="yesNo" />
                             <label className="labelsRadio" id="yesChoice" for="yes">Yes</label>
                             <input className="choiceInp" id="no" type="radio" name="yesNo"/>
                             <label className="labelsRadio" id="noChoice" for="no">No</label>
-                            </div>
-                            </div>
+                            </form>
+                            </div>   
+                        </div>
+                        
                             <div id="weight">
                             <p className="pNames">Weight</p>
-                            <div id="weightCh">
+                            <form id="weightCh">
                             <input className="choiceInp" id="up25lbs" type="radio" name="weight" />
-                            <label className="labelsRadio" id="choiceUp25" for="up25lbs">0-25lbs</label>
+                            <label className="radioWeight" id="choiceUp25" for="up25lbs">0-25lbs</label>
                             <input className="choiceInp" id="up50lbs" type="radio" name="weight"/>
-                            <label className="labelsRadio" id="choiceUp50" for="up50lbs">25-50lbs</label>
+                            <label className="radioWeight" id="choiceUp50" for="up50lbs">25-50lbs</label>
                             <input className="choiceInp" id="up100lb" type="radio" name="weight"/>
-                            <label className="labelsRadio" id="choiceUp100" for="up100lb">50-100lbs</label>
+                            <label className="radioWeight" id="choiceUp100" for="up100lb">50-100lbs</label>
                             <input className="choiceInp" id="more100lb" type="radio" name="weight"/>
-                            <label className="labelsRadio" id="choiceMore100" for="more100lb">100+lbs</label>
-                            </div>
+                            <label className="radioWeight" id="choiceMore100" for="more100lb">100+lbs</label>
+                            </form>
                             </div>
                 
                       
-            </div>
-            </div>
+            
             <div>
                 <input id= "back" onClick={this.handlePressBack} type="button" />
                 <label id="backLab" for="back">Back</label>
@@ -110,6 +113,10 @@ class FormComponents extends React.Component{
                 <label id="nextLab" for="next">Next</label>
             </div>
             </div>
+            </div>
+
+            
+           
           
             
         )
