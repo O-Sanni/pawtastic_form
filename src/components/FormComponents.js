@@ -17,46 +17,57 @@ class FormComponents extends React.Component{
         this.handlePressBack=this.handlePressBack.bind(this);
         this.handlePressNext=this.handlePressNext.bind(this);
     }
+
     handleChangeName(e){
         this.setState({name:e.target.value});
         e.preventDefault();
         
     }
+
     handleChangeBreed(e){
         this.setState({breed:e.targed.value});
         e.preventDefault();
     }
+
     handleChangeBirthday(e){
         this.setState({breed:e.targed.value});
         e.preventDefault();
     }
+
     handlePressBack(e){
         this.setState({back:true})
         console.log("Back: " + this.state.back);
     }
+
     handlePressNext(e){
         this.setState({next:true})
         console.log("Next: " + this.state.next);
     }
+
     render(){
         return(
             <div id="rightMain">
-               <h1 id="textTopRight">Yay, we love dogs! Give us the basic about your pup.</h1> 
-                <div id="formTop">
+                <div id="topRight">
+                <h1 id="textTopRight">Yay, we love dogs! Give us the basic about your pup.</h1> 
+                <div id="topPart">
                     <form id="formTop">
-                        <p>Name</p>
+                        <p className="pNames">Name</p>
                         <input id="name" type="text" onChange={this.handleChangeName} placeholder="Pet's name" />
-                        <p>Breed</p>
-                        <input  id="breed" type="text" onChange={this.handleChangeBreed} placeholder="Pet's breed" />
-                        <p>Birthday</p>
-                        <input  id="birthday" type="text" onChange={this.handleChangeBirthday} placeholder="MM/DD/YYYY" />
                         </form>
-<div id="upload">
-<img src={require("../assets/camera.jpg")} alt="camera" />
-<p>Upload a photo</p>
-</div>
+                        <div id="upload">
+                            <img src={require("../assets/camera.jpg")} alt="camera" />
+                            <p className="pNames">Upload a photo</p>
+                        </div>
+                        </div>
+                            <p className="pNames">Breed</p>
+
+                        <input  id="breed" type="text" onChange={this.handleChangeBreed} placeholder="Pet's breed" />
+                        <p className="pNames">Birthday</p>
+                        <input  id="birthday" type="text" onChange={this.handleChangeBirthday} placeholder="MM/DD/YYYY" />
+                   
+
                         <div id="gender">
-                            <p>Gender</p>
+                            <p className="pNames">Gender</p>
                             <div id="genderChoice">
                             <input className="choiceInp" id="female" type="radio" name="choiceGender" />
                             <label className="labelsRadio" id="femaleChoice" for="female">Female</label>
@@ -64,7 +75,7 @@ class FormComponents extends React.Component{
                             <label className="labelsRadio" id="maleChoice" for="male">Male</label>
                             </div>
                             <div id="spaNeu">
-                            <p>Spayed or Neutered</p>
+                            <p className="pNames">Spayed or Neutered</p>
                             <div id="spaOrNeu">
                             <input className="choiceInp" id="yes" type="radio" name="yesNo" />
                             <label className="labelsRadio" id="yesChoice" for="yes">Yes</label>
@@ -73,7 +84,7 @@ class FormComponents extends React.Component{
                             </div>
                             </div>
                             <div id="weight">
-                            <p>Weight</p>
+                            <p className="pNames">Weight</p>
                             <div id="weightCh">
                             <input className="choiceInp" id="up25lbs" type="radio" name="weight" />
                             <label className="labelsRadio" id="choiceUp25" for="up25lbs">0-25lbs</label>
@@ -96,6 +107,7 @@ class FormComponents extends React.Component{
                 <label id="nextLab" for="next">Next</label>
             </div>
             </div>
+          
             
         )
     }

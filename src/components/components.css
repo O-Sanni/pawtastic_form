@@ -10,24 +10,26 @@
 #leftSide{
     display: flex;
     flex-direction: column;
-background-image: url("../assets/dog_01.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-width: 450px;
-height: 700px;
+    background-image: url("../assets/dog_01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 700px;
 }
+
 #logoTxt{
     margin-top: 50px;
-margin-left: 70px;
+    margin-left: 70px;
 }
+
 #logo{
     width: 221px;
     height: 64px;
 }
-ul{ 
 
-margin-top: 50px;
+ul{ 
+    margin-top: 50px;
 }
 
 li{
@@ -45,21 +47,37 @@ li{
     text-decoration: underline;
     color:#ffffff;
 }
+
 /* ****************************************************************** */
 
 #rightMain{
-    width:900px;
+    width:700px;
     background-color: #F7eceb;
 }
+#topRight{
+margin-left: 150px;
+}
 #textTopRight{
-color:#545871;
-font-family: 'Signika', sans-serif;
+    width:400px;
+    height: 120px;
+    color:#545871;
+    font-family: 48px 'Signika', sans-serif;
+}
+
+#topPart{
+ display: flex;
+ flex-direction: row;
+    margin-top: -25px;
+ 
+}
+#formTop{
+ 
 }
 
 /* Idea was taken from https://stackoverflow.com/questions/33881961/create-segmented-control-like-with-animation answer by Mi-Creativity */
 
 #name
-breed
+#breed
 .labelsRadio{
         padding-top: 15px;
         width: 136px;
