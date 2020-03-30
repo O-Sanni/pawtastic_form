@@ -7,10 +7,14 @@ class FormComponents extends React.Component{
         this.state = {
             name: " ",
             breed: " ",
-            birth: " "
+            birth: " ",
+            back: false,
+            next: false
         }
         this.handleChangeName=this.handleChangeName.bind(this);
         this.handleChangeBreed=this.handleChangeBreed.bind(this);
+        this.handlePressBack=this.handlePressBack.bind(this);
+        this.handlePressNext=this.handlePressNext.bind(this);
     }
     handleChangeName(e){
         this.setState({name:e.target.value});
@@ -20,6 +24,14 @@ class FormComponents extends React.Component{
     handleChangeBreed(e){
         this.setState({breed:e.targed.value});
         e.preventDefault();
+    }
+    handlePressBack(e){
+        this.setState({back:true})
+        console.log("Back: " + this.state.back);
+    }
+    handlePressNext(e){
+        this.setState({next:true})
+        console.log("Next: " + this.state.next);
     }
     render(){
         return(
@@ -65,6 +77,12 @@ class FormComponents extends React.Component{
                 
                       
             </div>
+            </div>
+            <div>
+                <input id= "back" onClick={this.handlePressBack} type="button" />
+                <label id="backLab" for="back">Back</label>
+                <input id= "next" onClick ={this.handlePressNext} type="button" />
+                <label id="nextLab" for="next">Next</label>
             </div>
             </div>
             
