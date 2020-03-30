@@ -56,7 +56,7 @@ li{
 }
 #topRight{
     margin-top: 45px;
-margin-left: 150px;
+    margin-left: 150px;
 }
 #textTopRight{
     width:400px;
@@ -66,10 +66,9 @@ margin-left: 150px;
 }
 
 #topPart{
- display: flex;
- flex-direction: row;
-margin-top: -35px;
- 
+    display: flex;
+    flex-direction: row;
+    margin-top: -35px;
 }
 
 .pNames{
@@ -79,11 +78,11 @@ margin-top: -35px;
 
 }
 .filloutInp{
-  width: 180px; 
-  height: 35px;
-  font-family: 'Signika', sans-serif;
-  font-size: 15px;
-  color: #9597A6;
+    width: 180px; 
+    height: 35px;
+    font-family: 'Signika', sans-serif;
+    font-size: 15px;
+    color: #9597A6;
 }
 
 #upload{
@@ -137,34 +136,37 @@ margin-top: -35px;
     }
 
  .choiceInp{
-        display:none;
-    }
+    display:none;
+}
 
 
-    #male:checked ~ #maleChoice{
+#male:checked ~ #maleChoice{
     background-color: #EBD0CE;
-    }
-    #female:checked ~ #femaleChoice{
-        background-color: #EBD0CE;
-    }
+}
+
+#female:checked ~ #femaleChoice{
+    background-color: #EBD0CE;
+}
 
 #yes:checked ~ #yesChoice{
-background-color: #EBD0CE;
+    background-color: #EBD0CE;
 
 }
 
 #no:checked ~ #noChoice{
     
-background-color: #EBD0CE;
+    background-color: #EBD0CE;
     
 }
 
 #up25lbs:checked ~ #choiceUp25{
     background-color: #EBD0CE;
     }
+
 #up50lbs:checked ~ #choiceUp50{
     background-color: #EBD0CE;
     }
+
 #up100lb:checked ~ #choiceUp100{
     background-color: #EBD0CE;
     }
@@ -173,12 +175,12 @@ background-color: #EBD0CE;
     }
 
     #genderChoice,#spaOrNeu  {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 180px; 
-        height: 45px;
-        background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 180px; 
+    height: 45px;
+    background-color: #ffffff;
     margin-right: 10px;
     border: 1px solid #CCCCCC;
     border-radius: 5%;
@@ -200,14 +202,14 @@ background-color: #EBD0CE;
 
 #back, #next{
     margin-top: 30px;
-  width: 100px;
-  height: 45px;
-  background-color: #ffffff;
-  border-radius: 35px;
-  border: 1px solid #707070;
-font-family: 'Signika', sans-serif;
-  font-size: 15px;
-  color: #545871;
+    width: 100px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    border: 1px solid #707070;
+    font-family: 'Signika', sans-serif;
+    font-size: 15px;
+    color: #545871;
 }
 
 #next{
