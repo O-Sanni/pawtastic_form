@@ -37,22 +37,47 @@ label{
         display:none;
     }
 
+
     #male:checked ~ #maleChoice{
-    background-color: violet;
+    background-color: #EBD0CE;
     }
     #female:checked ~ #femaleChoice{
-        background-color: teal;
+        background-color: #EBD0CE;
     }
 
 #yes:checked ~ #yesChoice{
-background-color: red;
+background-color: #EBD0CE;
 }
 #no:checked ~ #noChoice{
     
-background-color: red;
+background-color: #EBD0CE;
     
-
 }
 
+#up25lbs:checked ~ #choiceUp25{
+    background-color: #EBD0CE;
+    }
+#up50lbs:checked ~ #choiceUp50{
+    background-color: #EBD0CE;
+    }
+#up100lb:checked ~ #choiceUp100{
+    background-color: #EBD0CE;
+    }
+#more100lb:checked ~ #choiceMore100{
+    background-color: #EBD0CE;
+    }
 
+    #genderChoice  {
+        background-color: #ffffff;
+        
+    }
 
+#spaOrNeu{
+    background-color: #ffffff;
+    
+}
+
+#weightCh{
+    background-color: #ffffff;
+    
+}
