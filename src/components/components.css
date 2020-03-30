@@ -1,23 +1,54 @@
 #main{
+    margin-top: 20px;
+    margin-left: 100px;
+    width:1190px;
     display: flex;
     flex-direction: row;
-    width: 1439px;
-    height: 820px;
-    background-color: #9497A7;
+    border-radius: 2%;   
 }
-li{
-    list-style-image: url("../assets/circle.png");
-}
+
 #leftSide{
+    display: flex;
+    flex-direction: column;
 background-image: url("../assets/dog_01.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-width: 200px;
-height: 500px;
+width: 450px;
+height: 700px;
 }
-#rightMain{
+#logoTxt{
+    margin-top: 50px;
+margin-left: 70px;
+}
+#logo{
+    width: 221px;
+    height: 64px;
+}
+ul{ 
 
+margin-top: 50px;
+}
+
+li{
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-family: 24px 'Sen', sans-serif;
+    color:#9597A6;
+    list-style-position: outside;
+    list-style-image: url("../assets/circle.png");
+}
+
+#save{
+    margin-top: 100px;
+    font-family: 24px 'Sen', sans-serif;
+    text-decoration: underline;
+    color:#ffffff;
+}
+/* ****************************************************************** */
+
+#rightMain{
+    width:900px;
     background-color: #F7eceb;
 }
 #textTopRight{

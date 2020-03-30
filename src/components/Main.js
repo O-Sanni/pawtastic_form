@@ -11,7 +11,6 @@ class Main extends React.Component{
           <div id="main">
            <ListComponent /> 
            <FormComponents />
-         
           </div>
         )
     }

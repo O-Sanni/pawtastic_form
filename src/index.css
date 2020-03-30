@@ -1,4 +1,9 @@
 body {
+  display: flex;
+  flex-direction: row;
+  width: 1439px;
+  height: 820px;
+  background-color: #9497A7;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
