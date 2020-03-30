@@ -5,27 +5,35 @@ class FormComponents extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            name: " "
+            name: " ",
+            breed: " ",
+            birth: " "
         }
+        this.handleChangeName=this.handleChangeName.bind(this);
     }
+    handleChangeName(e){
+        this.setState({name:e.target.value});
+        
+    }
+    handleChangeBreed
     render(){
         return(
             <div id="rightMain">
                <h1 id="textTopRight">Yay, we love dogs! Give us the basic about your pup.</h1> 
                 <div id="formTop">
-                    <form id="formLeft">
+                    <form id="formTop">
                         <p>Name</p>
-                        <input type="text" placeholder="Pet's name" />
+                        <input type="text" onChange={this.handleChangeName} placeholder="Pet's name" />
+{/*                         
                         <p>Breed</p>
-                        <input type="text" placeholder="Pet's breed" />
-                        
+                        <input type="text" breed ={this.state.breed} placeholder="Pet's breed" />
                         <div>
                         <div>
                             <p>Gender</p>
-                        <input name="Female"/>
+                            <input name="Female"/>
                         </div>
                         
-                        </div>
+                        </div> */}
                     </form>
                 </div>
                 <div id="formButton"></div>
