@@ -123,66 +123,6 @@ li{
     flex-direction: row;
 }
 
-
-/* Idea was taken from https://stackoverflow.com/questions/33881961/create-segmented-control-like-with-animation answer by Mi-Creativity */
-
-
-.labelsRadio{
-    margin-top: 10px;
-    margin-left: -7px;
-    width: 65px;
-    height: 20px;
-    padding-left: 10px; 
-    color:#545871;
-    }
-.radioWeight{
-    margin-top: 10px;
-    margin-left: -7px;
-    width: 80px;
-    height: 20px;
-    padding-left: 10px; 
-    color:#545871;
-    }
-
- .choiceInp{
-    display:none;
-}
-
-
-#male:checked ~ #maleChoice{
-    background-color: #EBD0CE;
-}
-
-#female:checked ~ #femaleChoice{
-    background-color: #EBD0CE;
-}
-
-#yes:checked ~ #yesChoice{
-    background-color: #EBD0CE;
-
-}
-
-#no:checked ~ #noChoice{
-    
-    background-color: #EBD0CE;
-    
-}
-
-#up25lbs:checked ~ #choiceUp25{
-    background-color: #EBD0CE;
-    }
-
-#up50lbs:checked ~ #choiceUp50{
-    background-color: #EBD0CE;
-    }
-
-#up100lb:checked ~ #choiceUp100{
-    background-color: #EBD0CE;
-    }
-#more100lb:checked ~ #choiceMore100{
-    background-color: #EBD0CE;
-    }
-
     #genderChoice,#spaOrNeu  {
     display: flex;
     flex-direction: row;
@@ -234,4 +174,61 @@ li{
     background-color: white;
     border: solid 5px white;
 }
- 
+
+ .labelsRadio{
+    margin-top: 10px;
+    margin-left: -7px;
+    width: 65px;
+    height: 20px;
+    padding-left: 10px; 
+    color:#545871;
+    }
+.radioWeight{
+    margin-top: 10px;
+    margin-left: -7px;
+    width: 80px;
+    height: 20px;
+    padding-left: 10px; 
+    color:#545871;
+    }
+
+ .choiceInp{
+    display:none;
+}
+
+/* Idea was taken from https://stackoverflow.com/questions/33881961/create-segmented-control-like-with-animation answer by Mi-Creativity */
+
+#male:checked ~ #maleChoice{
+    background-color: #EBD0CE;
+}
+
+#female:checked ~ #femaleChoice{
+    background-color: #EBD0CE;
+}
+
+#yes:checked ~ #yesChoice{
+    background-color: #EBD0CE;
+
+}
+
+#no:checked ~ #noChoice{
+    
+    background-color: #EBD0CE;
+    
+}
+
+#up25lbs:checked ~ #choiceUp25{
+    background-color: #EBD0CE;
+    }
+
+#up50lbs:checked ~ #choiceUp50{
+    background-color: #EBD0CE;
+    }
+
+#up100lb:checked ~ #choiceUp100{
+    background-color: #EBD0CE;
+    }
+#more100lb:checked ~ #choiceMore100{
+    background-color: #EBD0CE;
+    }
+
