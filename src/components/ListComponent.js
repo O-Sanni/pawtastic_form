@@ -12,6 +12,7 @@ class ListComponent extends React.Component{
                 <div id="logoTxt">
                     <img id="logo" src={require("../assets/logo.png")} alt="logo" />
                     <div id="line">
+                    
                         <ul>
                             <li>Human Profile</li>
                             <li>Pet basics</li>
